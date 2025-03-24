@@ -14,4 +14,3 @@ module.exports = {
       // Add specific rules here if requested
     },
   };
-  
