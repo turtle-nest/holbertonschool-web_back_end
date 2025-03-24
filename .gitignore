@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Jest coverage directory
+coverage/
+
+# Babel cache
+babel-cache/
+.cache/
+
+# VSCode settings (facultatif)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# Build output (si applicable)
+dist/
+build/
