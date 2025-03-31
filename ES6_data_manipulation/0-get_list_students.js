@@ -1,5 +1,5 @@
 export default function getListStudents() {
-  const array =[
+  const array = [
     {
       id: 1,
       firstName: 'Guillaume',
