@@ -1,5 +1,5 @@
 export default function getListStudents() {
-  return [
+  const array =[
     {
       id: 1,
       firstName: 'Guillaume',
@@ -14,6 +14,6 @@ export default function getListStudents() {
       id: 5,
       firstName: 'Serena',
       location: 'San Francisco'
-    },
-  ];
+    }];
+  return array;
 }
