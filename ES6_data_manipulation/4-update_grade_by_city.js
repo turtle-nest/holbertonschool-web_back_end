@@ -6,10 +6,13 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
   return students
     .filter((student) => student.location === city)
     .map((student) => {
-      const gradeObj = newGrades.find((grade) => grade.studentID === student.id);
+      const gradeObj = newGrades.find(
+        (grade) => parseInt(grade.studentId, 10) === parseInt(student.id, 10)
+      );
+
       return {
         ...student,
-        grade: gradeObj ? gradeObj.grade : 'N/A'
+        grade: gradeObj ? gradeObj.grade : 'N/A',
       };
     });
 }
