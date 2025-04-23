@@ -1,8 +1,12 @@
 # Node modules
 node_modules/
 
+# pycache
+__pycache__
+
 # Tests
 tests/
+a.jso
 
 # Logs
 logs/
